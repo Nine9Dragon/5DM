@@ -63,4 +63,7 @@ export default {
       flex-direction: column;
     }
   }
+  a{
+    text-decoration: none;
+  }
 </style>
