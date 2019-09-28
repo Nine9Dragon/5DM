@@ -8,9 +8,6 @@
       <h3>
         登录
         <p class="status"></p>
-
-
-        <a href="">test</a>
       </h3>
       <p>
         <label for="uname">
