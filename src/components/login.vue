@@ -38,6 +38,7 @@
   </div>
 </template>
 <script>
+import _ from "lodash"
 export default {
   data(){
     return{
@@ -45,12 +46,15 @@ export default {
     }
   },
   methods:{
-
+    
   }
 }
 </script>
 <style lang="less" scoped>
   .container{
+    position: fixed;
+    left:50%;
+    transform: translate(-50%,80PX);
     width: 300px;
     height: 329px;
     padding: 50px 50px 40px;
@@ -64,10 +68,6 @@ export default {
     }
   }
   a{
-    text-decoration: none;
-
-
-
-    
+    text-decoration: none;  
   }
 </style>
